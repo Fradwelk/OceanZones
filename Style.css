@@ -1,0 +1,75 @@
+body{
+		background-color: #2B65EC;
+	}
+	h1{
+		color: LightBlue;
+		text-align: center;
+	}
+	h2{
+		color: LightBlue;
+		text-align: center;
+	}
+	h3{
+		color: LightBlue;
+		text-align: center;
+	}
+	h4{
+		color: LightBlue;
+		text-align: center;
+		font-size: 12;
+	}
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	* {
+		box-sizing: border-box;
+	}
+
+		.column {
+			float: left;
+				width: 33.33%;
+				padding: 5px;
+	}	
+
+		/* Clearfix (clear floats) */
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+	}
+
+	body {
+		background-image: url('https://c1.wallpaperflare.com/preview/658/973/231/sea-ocean-underwater-water.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.animals{
+		border: solid;
+		border-color: LightBlue;
+		border-width:8px;
+	}
+	.topnav {
+		background-color:LightBlue;
+		overflow: hidden;
+		border-radius: 7px;
+	}
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.topnav a:hover {
+		background-color: #f2f2f2;
+		color: black;
+	}
+	.topnav a.active {
+		background-color: #DBF3FA;
+		color: Black;
+	}
+	
